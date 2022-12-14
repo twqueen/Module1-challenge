@@ -1,3 +1,4 @@
+/* universal selector */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* made header into its own element instead of assigning a class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,10 +22,12 @@ header h1 {
     font-size: 48px;
 }
 
+/* applies color to class seo within the header h1 */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* below applies to stuff within the nav element and specifics within the navigation */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* styling for homepage image. Got rid of height because image looked deformed after changing from div to img itself */
 .hero {
     width: 100%;
     margin-bottom: 25px;
@@ -67,12 +72,14 @@ p {
     margin-left: 25px;
 }
 
+/* for main element */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* aside elements and their specific class tags */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -100,6 +107,7 @@ main {
     max-width: 150px;
 }
 
+/* main body elements */
 .explanation {
     margin-bottom: 20px;
     padding: 50px;
